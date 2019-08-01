@@ -8,13 +8,32 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class NewsActivity extends AppCompatActivity {
+    static ImageView imageView1,imageView2,imageView3;
+    static TextView Header1,Header2,Header3,Publishedon1,Publishedon2,Publishedon3,content1,content2,content3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news);
+        imageView1= findViewById(R.id.imageView1);
+        imageView2= findViewById(R.id.imageView2);
+        imageView3= findViewById(R.id.imageView2);
+        Header1=findViewById(R.id.Header1);
+        Header2=findViewById(R.id.Header2);
+        Header3=findViewById(R.id.Header3);
+        Publishedon1=findViewById(R.id.Publishedon1);
+        Publishedon2=findViewById(R.id.Publishedon2);
+        Publishedon3=findViewById(R.id.Publishedon3);
+        content1=findViewById(R.id.content1);
+        content2=findViewById(R.id.content2);
+        content3=findViewById(R.id.content3);
+
+        NewsPage getData= new NewsPage();
+        getData.execute("https://newsapi.org/v2/top-headlines?country=us&apiKey=106a04e2a6f949c28f2b273ad212b795");
     }
 
     @Override
