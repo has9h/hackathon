@@ -1,6 +1,21 @@
 package com.example.fakenews;
+import android.content.Context;
+import android.view.View;
+import android.widget.Toast;
+
+import static com.example.fakenews.VerifyActivity.verifyNews;
 
 public class FakeHeadlineDetector {
+    public static String headline;
+    public static double ranking;
+    Toast displayRanking;
+
+    public String verifyFunction(Context context){
+        headline = verifyNews.getText().toString(); //gets you the contents of edit text
+        Toast.makeText(context, "The credibility ranking is "  + fakeHeadlineIndex(headline), Toast.LENGTH_SHORT);
+
+        return headline;
+    }
 
     public static int howManyChars(String headline){
         int charCount = 0;

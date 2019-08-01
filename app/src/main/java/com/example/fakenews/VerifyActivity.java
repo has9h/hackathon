@@ -18,6 +18,9 @@ public class VerifyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        verifyNews = (EditText) findViewById(R.id.verifyNews);
+        btnVerify =  (Button) findViewById(R.id.btnVerify);
     }
 
 

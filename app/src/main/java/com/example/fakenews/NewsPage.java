@@ -44,8 +44,14 @@ public class NewsPage extends AsyncTask<String, Void, String> {
 
         try{
             JSONObject myObject= new JSONObject(result);
-            JSONArray weather = myObject.getJSONArray("weather");
-            JSONObject zeroInd = weather.getJSONObject(0);
+            JSONArray articles = myObject.getJSONArray("articles");
+            JSONObject zeroInd = articles.getJSONObject(0);
+            JSONObject source = zeroInd.getJSONObject("source");
+
+
+            String title1 = source.getString("id");
+            NewsActivity.content1.setText("Title: " + title1);
+            NewsActivity.publishedon1.setText("Help");
 
         } catch (JSONException e){
             e.printStackTrace();
