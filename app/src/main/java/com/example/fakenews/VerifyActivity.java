@@ -7,9 +7,12 @@ import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.EditText;
 
 public class VerifyActivity extends AppCompatActivity {
+    static EditText verifyNews;
+    static Button btnVerify;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

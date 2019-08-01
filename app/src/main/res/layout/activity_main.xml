@@ -34,7 +34,7 @@
         android:text="Verify"
         android:layout_below="@+id/verifyNews"
         android:layout_marginLeft="150dp"
-        android:color= "#808080"/>
+        android:color= "#808080" />
 
 
 </RelativeLayout>
