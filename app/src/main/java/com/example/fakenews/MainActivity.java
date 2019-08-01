@@ -35,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, VerifyActivity.class);
                 startActivity(intent);
                 return true;
+            case R.id.news:
+                intent = new Intent(this, NewsActivity.class);
+                startActivity(intent);
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

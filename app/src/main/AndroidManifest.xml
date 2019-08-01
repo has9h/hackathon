@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".VerifyActivity"
             android:label="News Verifier"></activity>
+        <activity android:name=".NewsActivity"
+            android:label="News Verifier"></activity>
     </application>
 
 </manifest>
