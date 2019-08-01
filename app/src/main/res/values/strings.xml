@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">fakeNews</string>
+    <string name="verify_news">Verify News</string>
+    <string name="news">News</string>
 </resources>
