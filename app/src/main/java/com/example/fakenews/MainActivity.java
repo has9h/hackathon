@@ -27,11 +27,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
-            case R.id.verify:
-                Intent intent = new Intent(this, VerifyActivity.class);
+            case R.id.home:
+                Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
                 return true;
-
+            case R.id.verify:
+                intent = new Intent(this, VerifyActivity.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 }
