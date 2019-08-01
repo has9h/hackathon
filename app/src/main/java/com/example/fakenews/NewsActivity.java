@@ -22,9 +22,9 @@ public class NewsActivity extends AppCompatActivity {
         imageView1= findViewById(R.id.imageView1);
         imageView2= findViewById(R.id.imageView2);
         imageView3= findViewById(R.id.imageView2);
-        header1=findViewById(R.id.header1);
-        header2=findViewById(R.id.header2);
-        header3=findViewById(R.id.header3);
+        header1=findViewById(R.id.source1);
+        header2=findViewById(R.id.source2);
+        header3=findViewById(R.id.source3);
         publishedon1=findViewById(R.id.publishedon1);
         publishedon2=findViewById(R.id.publishedon2);
         publishedon3=findViewById(R.id.publishedon3);

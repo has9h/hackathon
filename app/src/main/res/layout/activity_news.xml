@@ -17,25 +17,42 @@
             android:layout_marginLeft="5dip"
             android:layout_marginTop="10dip"
             android:layout_marginRight="5dip"
+            android:src="@drawable/image1"
             />
         <TextView
-            android:id="@+id/header1"
+            android:id="@+id/source1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="3dip" />
+            android:padding="3dip"
+            android:text="Source: NBC News"/>
+        <TextView
+            android:id="@+id/title1"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Title: North Korean soldier defects across the DMZ, South Korea says - NBCNews.com"/>
         <TextView
             android:id="@+id/publishedon1"
+            android:textColor="@color/colorPrimaryDark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="3dip"/>
+            android:padding="3dip"
+            android:text="Publish date: 2019-08-01"/>
         <TextView
             android:id="@+id/content1"
+            android:textColor="@color/colorPrimaryDark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="3dip" />
+            android:padding="3dip"
+            android:text="SEOUL The South Korean military detained a North Korean soldier who crossed the heavily fortified demilitarized zone that separates the two countries, South Korea's Joint Chiefs of Staff said Thursday.\r\nThe soldier expressed his intention to defect to South Korea."/>
+
 
         <ImageView
             android:id="@+id/imageView2"
+            android:src="@drawable/image2"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginLeft="5dip"
@@ -43,25 +60,40 @@
             android:layout_marginRight="5dip"
             />
         <TextView
-            android:id="@+id/header2"
+            android:id="@+id/source2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="3dip"
-            android:text="Header: " />
+            android:text="Source: Fox News " />
+        <TextView
+            android:id="@+id/title2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Title: CNN asks about Mueller probe on Night 2 after taking heat for skipping it on Night 1 - Fox News" />
         <TextView
             android:id="@+id/publishedon2"
+            android:textColor="@color/colorPrimaryDark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="3dip"
-            android:text="Publish date: " />
+            android:text="Publish date: 2019-08-01" />
         <TextView
             android:id="@+id/content2"
+            android:textColor="@color/colorPrimaryDark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="3dip"
-            android:text="Content: " />
+            android:text="Content: It appears CNN has listened to its critics and decided that the Russia investigation is relevant again.\r\nThe first installment of CNN’s two-night Democratic primary debate in Detroit was mocked because it concluded without a single mention of CNN’s longstanding." />
+
+
+
         <ImageView
             android:id="@+id/imageView3"
+            android:src="@drawable/image3"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginLeft="5dip"
@@ -69,24 +101,113 @@
             android:layout_marginRight="5dip"
             />
         <TextView
-            android:id="@+id/header3"
+            android:id="@+id/source3"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="3dip"
-            android:text="Header: " />
+            android:text="Source: CNN" />
+        <TextView
+            android:id="@+id/title3"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Title: Winners and losers from the second night of the CNN debate - CNN" />
         <TextView
             android:id="@+id/publishedon3"
+            android:textColor="@color/colorPrimaryDark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="3dip"
-            android:text="Publish date: " />
+            android:text="Publish date: 2019-08-01" />
         <TextView
             android:id="@+id/content3"
+            android:textColor="@color/colorPrimaryDark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="3dip"
-            android:text="Content: " />
+            android:text="Content: THE POINT -- NOW ON YOUTUBE! \r\nIn each episode of his weekly YouTube show, Chris Cillizza will delve a little deeper into the surreal world of politics. Click to subscribe!" />
 
 
+        <ImageView
+            android:id="@+id/imageView4"
+            android:src="@drawable/image4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="10dip"
+            android:layout_marginRight="5dip"
+            />
+        <TextView
+            android:id="@+id/source4"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Source: Npr.org" />
+        <TextView
+            android:id="@+id/title4"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Title: Son Of Osama Bin Laden Is Dead, Media Reports Say - NPR" />
+        <TextView
+            android:id="@+id/publishedon4"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Publish date: 2019-08-01" />
+        <TextView
+            android:id="@+id/content4"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Content: Hamza bin Laden, the son of al-Qaida leader Osama bin Laden, is shown at his wedding in a video image released by the CIA in November 2017.\r\nAP\r\nHamza bin Laden, the son of the late al-Qaida leader Osama bin Laden, is reported dead, according to multiple news." />
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:src="@drawable/image5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="10dip"
+            android:layout_marginRight="5dip"
+            />
+        <TextView
+            android:id="@+id/source5"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Source: Wired" />
+        <TextView
+            android:id="@+id/title5"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Title: You'll Get Your Equifax Money. It Just Might Take a While - WIRED" />
+        <TextView
+            android:id="@+id/publishedon5"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Publish date: 2019-08-01" />
+        <TextView
+            android:id="@+id/content5"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="Content: Last week, Equifax agreed to a $575 millionup to $700 millionsettlement over its major 2017 data breach. It entitles affected consumers to free credit-monitoring offerings or an $125 payout, plus the potential for more cash back if you can document losses as."/>
     </TableLayout>
 </ScrollView>
